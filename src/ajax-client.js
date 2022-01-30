@@ -62,7 +62,7 @@ export default class AjaxClient {
             method: reqParam.method,
             mode: 'cors',
             cache: 'no-cache',
-            //credentials:null,// 'include',
+            credentials: 'include',
             //referrer: 'no-referrer',
         };
 
